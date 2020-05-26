@@ -1,4 +1,4 @@
-HDHR
+HDHRHTTPAPI
 -----------
 
 This is a forked version of the original [PyHdHomeRun](https://github.com/dsoprea/PyHdHomeRun)
