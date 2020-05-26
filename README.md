@@ -1,40 +1,26 @@
 HDHRHTTPAPI
 -----------
 
-This is a forked version of the original [PyHdHomeRun](https://github.com/dsoprea/PyHdHomeRun)
-module that adds support for Python 3 and the latest versions of the [libhdhomerun](https://github.com/Silicondust/libhdhomerun) library.
-The following description is retained from the original version.
+This is a small library to get information from HD HomeRun devices through the HTTP API for Python 3.
 
 Background
 ----------
 
-The HDHomeRun (HDHR) TV tuner is a neat, standalone tuner-device that 
-communicates the video signals to your system over the network. A cheap one 
-will have a couple of separate tuners built-in, but the more expensive ones 
-will have at least three-tuners and will even accept a cable-card to decrypt 
-your service-provider's channels directly (thus bypassing the need for a cable
--box).
+The HDHomeRun products from SiliconDust are basically network TV tuners that broadcast the TV from 
+your cable or antenna to your network. These devices has one or more built-in TV tunners so allow to
+stream the TV channels to the SiliconDust and third-parties applications.
 
-HDHomeRun makes the code available for the libraries, but this project wraps 
-those with Python to make them far more intuitive to interact with. Obviously, 
-any rendering should still be done in C, but there's no rule that we can't 
-hook it all together with Python and speed-up development a bit.
+There are several libraries for different lenguages to communicate to HDHomeRun devices but the aim 
+of this library is only to allow homeassistant software to be able to know the state of the tunners.
 
-I saw a couple of other projects that either directly exposed the dynamic 
-libraries through Python or invoked the command. I wanted an intuitive 
-interface that interacted with the dynamic libraries without being too coupled 
-with them, and encapsulated the entire breadth of typical usage. The 
-individual calls should be basic primitives that can plug-in nicely to the 
-predefined tuner interface of another DVR or TV application.
+As homeassistant is developed in Python and has some restrictions to access directly to the I/O hardware
+I develop this small utility to allow a custom component 
 
 The goals of this project were as follows:
 
 - Be able to discover the device(s) on the local network.
 - Be able to poll for status.
-- Be able to list channels.
-- Be able to scan channels.
-- For a tuner to be able to set the channel and acquire a lock.
-- To be able to instruct a tuner to start sending video back.
+- For a tuner to be able to get the current channel.
 
 All goals have all been completed.
 
