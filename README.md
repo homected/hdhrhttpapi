@@ -35,3 +35,4 @@ Development Resources
 
 - [Nat Burns](https://github.com/burnnat/ha-hdhomerun) custom component for home assistant
 - [SiliconDust HD HomeRun development guide](https://www.silicondust.com/hdhomerun/hdhomerun_development.pdf)
+- [HDHomeRun HTTP Development Guide](https://info.hdhomerun.com/info/http_api)
