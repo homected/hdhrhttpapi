@@ -6,7 +6,7 @@ This is a small library to retrieve information from HD HomeRun devices through 
 Background
 ----------
 
-The HDHomeRun products from SiliconDust are basically network TV tuners that broadcast the TV from 
+The [HDHomeRun products](https://www.silicondust.com/hdhomerun/) from SiliconDust are basically network TV tuners that broadcast the TV from 
 your cable or antenna to your network. These devices has one or more built-in TV tunners so it allows to
 stream the TV channels to the [SiliconDust](http://www.silicondust.com) and third-party applications.
 
