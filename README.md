@@ -33,4 +33,5 @@ Requirements
 Development Resources
 ---------------------
 
-In addition to the libhdhomerun source, the [HDHomeRun development guide](https://www.silicondust.com/hdhomerun/hdhomerun_development.pdf) is also useful.
+- [Nat Burns](https://github.com/burnnat/ha-hdhomerun) custom component for home assistant
+- [SiliconDust HD HomeRun development guide](https://www.silicondust.com/hdhomerun/hdhomerun_development.pdf)
