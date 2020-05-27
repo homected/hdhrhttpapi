@@ -8,7 +8,7 @@ Background
 
 The HDHomeRun products from SiliconDust are basically network TV tuners that broadcast the TV from 
 your cable or antenna to your network. These devices has one or more built-in TV tunners so it allows to
-stream the TV channels to the [SiliconDust] (http://www.silicondust.com) and third-party applications.
+stream the TV channels to the [SiliconDust](http://www.silicondust.com) and third-party applications.
 
 There are several libraries for different lenguages to communicate to HDHomeRun devices but I develop this
 library to use with homeassistant, a home automation software, to allow it to know the state of the tunners.
