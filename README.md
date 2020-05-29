@@ -28,7 +28,7 @@ All goals have been completed.
 Requirements
 ------------
 
-- There is not other additional requirements than Python 3.8.
+- There is not other additional requirements than Python 3.8. Other versions not tested.
   
 Development Resources
 ---------------------
