@@ -4,7 +4,7 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name="hdhrhttpapi-homected", 
+    name="hdhrhttpapi", 
     version="0.0.1",
     author="Jose Luis Galindo",
     author_email="support@homected.com",
